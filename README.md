@@ -27,7 +27,7 @@ You will learn to generate, analyze, and interpret both artifacts. By the end of
 
 ## **Lab Context**
 
-In the Module 7 Reading Material and lecture discussions, you explored how assurance, verification, and transparency strengthen system design and maintenance. This lab extends those principles into the **software supply chain**, where complex dependencies make it difficult to know exactly what’s running in a system. By generating and analyzing SBOMs for the **NG911** application - software that aligns with the [NENA/NG911](https://www.nena.org/page/ng911_project) standards defining the architecture and interoperability framework for Next Generation 9-1-1 systems - you’ll apply the same engineering mindset of identifying components, validating integrity, and reducing uncertainty to software, reinforcing the role of visibility as a foundation for trust.
+In the Module 7 Reading Material and lecture discussions, you explored how assurance, verification, and transparency strengthen system design and maintenance. This lab extends those principles into the software supply chain, where complex dependencies make it difficult to know exactly what’s running in a system. By generating and analyzing SBOMs for the **NG911** application - software that aligns with the [NENA/NG911](https://www.nena.org/page/ng911_project) standards defining the architecture and interoperability framework for Next Generation 9-1-1 systems - you’ll apply the same engineering mindset of identifying components, validating integrity, and reducing uncertainty to software, reinforcing the role of visibility as a foundation for trust.
 
 ---
 
