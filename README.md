@@ -167,13 +167,13 @@ deliverables/
 ├── hbom_summary.md
 └── reflection.md
 ```
-
+**NOTE:** Be sure to include the URL of your public forked GitHub repository in your assignment submission in Canvas.
 ---
 
-## **Grading Rubric (25 Points Total)**
+## **Grading Rubric (20 Points Total)**
 
 | **Criterion** | **Excellent (Full Points)** | **Partial Credit** | **Points** |
 |----------------|-----------------------------|--------------------|------------|
 | **SBOM Generation** | Both SBOMs generated (Syft SPDX + Trivy CycloneDX); includes discussion of differences and screenshots. | One SBOM missing, misnamed, or lacking discussion. | 8 |
 | **Vulnerability Analysis** | Grype scan performed; top 5 CVEs or rationale for 0 findings; NVD context explained. | Scan missing or minimal discussion. | 7 |
-| **Reflection & Professionalism** | Clear, concise reflection; correct filenames; properly pushed to GitHub. | Minor clarity or submission issues. | 10 |
+| **Reflection & Professionalism** | Clear, concise reflection; correct filenames; properly pushed to GitHub. | Minor clarity or submission issues. | 5 |
