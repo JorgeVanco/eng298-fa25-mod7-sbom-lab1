@@ -176,7 +176,26 @@ So the file will be created as ../deliverables/sbom_trivy_cdx.json
    ```bash
    grype sbom:../deliverables/sbom_syft_spdx.json -o table > ../deliverables/vuln_analysis_grype.txt
    ```
-   
+### Syntax Breakdown
+
+**grype** Open-source command-line tool used to scans software packages and SBOMs for known vulnerabilities (CVEs) by checking them against vulnerability databases (e.g.,  NVD or GitHub Security Advisories)
+
+**sbom:../deliverables/sbom_syft_spdx.json** Tells Grype to use an existing SBOM as its input instead of scanning files directly.
+
+sbom: → The prefix tells Grype the input is an SBOM file, not a filesystem or container
+
+../deliverables/sbom_syft_spdx.json → Path to the SBOM generated earlier by Syft, one directory above the current folder inside deliverables
+
+**-o table** Program option (-o) specifying the output format. Here, table means results will be shown in a human-readable table format (columns for package, version, vulnerability, severity, etc.)
+
+**> ../deliverables/vuln_analysis_grype.txt** Redirects the command’s output into a text file instead of printing to the terminal.
+
+.. → Move up one directory.
+
+/deliverables/ → Save it in the deliverables folder
+
+vuln_analysis_grype.txt → The file name for the vulnerability report
+
 2. **In your report, include a table for the top 5 vulnerabilities that includes the following:**
 
    | **CVE** | **Severity** | **Component** | **Version** | **Comment** |
